@@ -1,0 +1,70 @@
+.contact {
+  background-color: #1d809f;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 90px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+  color: white;
+}
+.buttonClick {
+  border: none;
+  padding: 20px 30px;
+  font-size: large;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  color: #212529;
+  font-size: small;
+  cursor: pointer;
+}
+.buttonLook {
+  border: none;
+  padding: 20px 30px;
+  font-size: large;
+  border-radius: 5px;
+  background-color: #212529;
+  color: #f8f9fa;
+  font-size: small;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+.socialMedia {
+  background-color: #ffffff;
+}
+.icons {
+  display: flex;
+  gap: 10px;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  background-color: #1d809f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconText {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+}
+.awesome {
+  font-size: 24px;
+}

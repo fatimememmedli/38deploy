@@ -1,0 +1,82 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 130px 0px;
+  gap: 60px;
+}
+.headText {
+  color: #ecb807;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+.desc {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.boxes {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  /* gap: 10px; */
+}
+.box1 {
+  width: 550px;
+  background: url("../images/portfolio-1.jpg");
+  padding: 250px 70px 80px 70px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.box2 {
+  width: 550px;
+  background: url("../images/portfolio-2.jpg");
+  cursor: pointer;
+
+  padding: 250px 70px 80px 70px;
+  transition: 0.5s;
+}
+.box3 {
+  width: 550px;
+  background: url("../images/portfolio-3.jpg");
+  cursor: pointer;
+
+  padding: 250px 70px 80px 70px;
+  transition: 0.5s;
+}
+.box4 {
+  width: 550px;
+  background: url("../images/portfolio-4.jpg");
+  cursor: pointer;
+
+  padding: 250px 70px 80px 70px;
+  transition: 0.5s;
+}
+.boxHeadText {
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+}
+.boxDesc {
+  font-size: 19px;
+  color: white;
+}
+.box1:hover {
+  transform: scale(0.9);
+}
+.box2:hover {
+  transform: scale(0.9);
+}
+.box3:hover {
+  transform: scale(0.9);
+}
+.box4:hover {
+  transform: scale(0.9);
+}
